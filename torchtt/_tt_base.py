@@ -152,7 +152,7 @@ class TT():
             self.cores = source
             self.__R = R
             self.__N = N
-            if len(M) == len(N):
+            if M == N:
                 self.__M = M
                 self.__is_ttm = True
             else:
